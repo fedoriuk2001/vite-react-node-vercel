@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const accessKey = process.env.NEXT_PUBLIC_ACCESS_KEY;
+const accessKey = process.env.HELLO_BOY;
 
 app.use("/", (req, res) => {
   res.send("Server is runnning. Bla bla bla  ", accessKey);
