@@ -13,14 +13,7 @@ function App() {
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
-  useEffect(() => {
-    fetch('https://dev-emsfrontend.azurewebsites.net/api/events/get/95b18e6a-20f9-4e3a-9e4f-2445a2a6a60d')
-      .then(response => response.text())
-      .then(data => {
-        console.log(data);
-      })
-      .catch(error => console.error('Error fetching data:', error));
-  }, []);
+  
 
 
   return (
