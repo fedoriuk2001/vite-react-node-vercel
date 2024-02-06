@@ -13,9 +13,6 @@ function App() {
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
-  
-
-
   return (
     <>
       <h1>Vite + React</h1>
