@@ -13,10 +13,6 @@ function App() {
         console.log(data);
       })
       .catch(error => console.error('Error fetching data:', error));
-      fetch('https://vite-react-node-vercel-server.vercel.app/') // Assuming your backend is running locally on port 5000
-      .then(response => response.text())
-      .then(data => console.log(data))
-      .catch(error => console.error('Error fetching data:', error));
   }, []);
 
 
